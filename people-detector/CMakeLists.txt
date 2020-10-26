@@ -12,7 +12,7 @@ find_package(OpenCV REQUIRED)
 include_directories(
    ${CMAKE_CURRENT_SOURCE_DIR}/include
    ${CMAKE_CURRENT_SOURCE_DIR}/src
-   /opt/intel/openvino/inference_engine/lib/intel64
+   /opt/intel/openvino/inference_engine/lib/armv7l
    /opt/intel/openvino/deployment_tools/open_model_zoo/demos/common
    /opt/intel/openvino/inference_engine/include
 )
@@ -20,7 +20,7 @@ include_directories(
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib
                  ${CMAKE_CURRENT_SOURCE_DIR}/include
                  ${CMAKE_CURRENT_SOURCE_DIR}/src
-                 /opt/intel/openvino/inference_engine/lib/intel64 )
+                 /opt/intel/openvino/inference_engine/lib/armv7l )
 
 add_executable(people_detector main.cpp 
                src/cnn.cpp
@@ -34,5 +34,5 @@ add_executable(people_detector main.cpp
 target_link_libraries(people_detector
                      ${OpenCV_LIBS}
                      ${CMAKE_DL_LIBS}
-                     /opt/intel/openvino/inference_engine/lib/intel64/libinference_engine.so
+                     /opt/intel/openvino/inference_engine/lib/armv7l/libinference_engine.so
                      gflags )

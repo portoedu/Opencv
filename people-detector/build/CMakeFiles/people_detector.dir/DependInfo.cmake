@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/Downloads/people-detector/main.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/main.cpp.o"
-  "/home/pi/Downloads/people-detector/src/cnn.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/cnn.cpp.o"
-  "/home/pi/Downloads/people-detector/src/core.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/core.cpp.o"
-  "/home/pi/Downloads/people-detector/src/detector.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/detector.cpp.o"
-  "/home/pi/Downloads/people-detector/src/distance.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/distance.cpp.o"
-  "/home/pi/Downloads/people-detector/src/kuhn_munkres.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/kuhn_munkres.cpp.o"
-  "/home/pi/Downloads/people-detector/src/tracker.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/tracker.cpp.o"
-  "/home/pi/Downloads/people-detector/src/utils.cpp" "/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir/src/utils.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/main.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/main.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/cnn.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/cnn.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/core.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/core.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/detector.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/detector.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/distance.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/distance.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/kuhn_munkres.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/kuhn_munkres.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/tracker.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/tracker.cpp.o"
+  "/home/pi/Downloads/Opencv/people-detector/src/utils.cpp" "/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir/src/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../src"
-  "/opt/intel/openvino/inference_engine/lib/intel64"
+  "/opt/intel/openvino/inference_engine/lib/armv7l"
   "/opt/intel/openvino/deployment_tools/open_model_zoo/demos/common"
   "/opt/intel/openvino/inference_engine/include"
   "/opt/intel/openvino/opencv/include"

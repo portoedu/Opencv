@@ -1,3 +1,3 @@
-/home/pi/Downloads/people-detector/build/CMakeFiles/rebuild_cache.dir
-/home/pi/Downloads/people-detector/build/CMakeFiles/people_detector.dir
-/home/pi/Downloads/people-detector/build/CMakeFiles/edit_cache.dir
+/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/people_detector.dir
+/home/pi/Downloads/Opencv/people-detector/build/CMakeFiles/edit_cache.dir
